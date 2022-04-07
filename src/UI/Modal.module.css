@@ -1,0 +1,96 @@
+.big{ 
+    position: relative;
+}
+.modalDiv{
+position: absolute;
+
+ width:  60%;
+ height:   fit-content;
+ min-height: 50%;
+ padding: 30px;
+ margin: 0 auto;
+ background-color:white ;
+ border-radius: 10px;
+top:6rem;
+right:15%;
+left: 15%;
+bottom:10%
+
+}
+
+
+.background{
+   background-color: rgba(0, 0, 0, 0.918);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom:0
+}
+
+
+.modalComponents{
+    display:absoulte; 
+    padding:5px ; 
+    border-bottom: 2px solid rgb(143, 89, 18);
+    margin-bottom:2rem
+}
+
+.totalPrice{
+     
+
+    position:absolute;
+    bottom:15px; 
+font-size: larger;
+
+
+}
+
+button { 
+    border:none;
+    outline: none;
+    padding:0.5rem
+}
+.deleteButton{
+    color:white;
+     position:absolute;
+right: 7%;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #ddaa52;
+border-radius: 10px;margin-top: 0.2rem 
+}
+
+.minusButton , 
+.addButton{ 
+    color:rgb(255, 255, 255);
+margin: 0.2rem 0.1rem ; 
+padding:0.5rem 2rem;
+    background-color: #dba952;
+    border-radius: 10px;
+}
+
+.clear{ 
+    color:rgb(255, 255, 255);
+margin: 0.2rem 0.1rem ; 
+padding:0.5rem 2rem;
+    background-color: #cf7539;
+    border-radius: 10px;
+}
+
+.order{ 
+    color:white;
+    position:absolute;
+right: 7%;
+bottom:10px; 
+
+color:white;
+margin: 0.2rem 0.1rem ; 
+padding:0.5rem 2rem;
+    background-color: #df7f3f;
+    border-radius: 10px;
+
+}
+

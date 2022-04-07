@@ -1,0 +1,158 @@
+.aboutus__contener {
+  max-width: 1300px;
+  margin-inline: auto;
+  position: relative;
+  height: 853px;
+}
+
+.aboutus__contener button {
+  padding: 8px 32px;
+  position: static;
+  width: 141px;
+  height: 44px;
+  left: 0px;
+  top: 248px;
+  background: #dcca87;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  white-space: nowrap;
+  margin-top: 2rem;
+}
+.aboutus__img-contener {
+  position: relative;
+  background: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus__g-img {
+  position: absolute;
+  width: 391px;
+  height: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus__knife-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 703px;
+  position: relative;
+  top: 5rem;
+  right: 0;
+}
+.aboutus__aboutus-text {
+  display: flex;
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 6rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+.aboutus__g-img {
+  position: absolute;
+  width: 300px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__h5 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.about__h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.about__desc {
+  font-family: var(--font-alt);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  font-weight: 400;
+  font-size: 16px;
+}
+.aboutus__aboutus-text {
+  display: flex;
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 6rem;
+  width: 100%;
+}
+.aboutus__aboutus-wraper,
+.aboutus__our-history-wraper {
+  flex-basis: 350px;
+}
+.aboutus__aboutus-wraper {
+  text-align: right;
+}
+
+.aboutus__our-history-wraper {
+  margin-right: 1rem;
+}
+
+/* media start  */
+@media (min-width: 1440px) {
+  .con {
+    height: 140vh;
+  }
+}
+@media (max-width: 1441px) {
+  .con {
+    height: 140vh;
+    width: 100vw;
+    transform: translate(0px, 50px);
+  }
+}
+@media (max-width: 840px) {
+  .aboutus__our-history-wraper {
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+  .con {
+    height: 180vh;
+    transform: translate(0px, 50px);
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutus__our-history-wraper {
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+  .aboutus__aboutus-wraper {
+    margin-right: 1rem;
+    margin-top: 5rem;
+  }
+  .con {
+    height: 180vh;
+    width: 120vw;
+    transform: translate(0px, 50px);
+  }
+}

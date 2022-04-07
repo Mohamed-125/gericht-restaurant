@@ -1,0 +1,94 @@
+.menu__img_content_wraper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+.menu__img {
+  width: 444px;
+  height: 659px;
+}
+
+.menu__pizzas_title,
+.menu__meals_title {
+  margin-bottom: 3rem;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.menu__pizza_div,
+.menu__meal_div {
+  margin-block: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1rem;
+}
+
+.item__title {
+  width: 90px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #dcca87;
+}
+
+.dash {
+  margin-inline: 1rem;
+  width: 119px;
+  height: 1px;
+  background: #fafafa;
+}
+
+.item__price {
+  width: 37px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+/* media query start  */
+
+@media (max-width: 1096px) {
+  .menu__img_content_wraper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .menu__img {
+    width: 300px;
+    height: 450px;
+  }
+}
+@media (max-width: 420px) {
+  .menu__img {
+    width: 250px;
+    height: 400px;
+  }
+  .item__title {
+    width: 90px;
+  }
+  .menu__img_content_wraper {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .menu__mobile_div {
+    width: 100%;
+  }
+}

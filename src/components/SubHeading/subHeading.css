@@ -1,0 +1,29 @@
+.titleStyless {
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #dcca87;
+}
+.subTitleStyless {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media (max-width: 400px) {
+  .titleStyles {
+    font-size: 45px;
+  }
+}
+@media (max-width: 350px) {
+  .titleStyles {
+    font-size: 45px;
+    margin-left: 1rem;
+  }
+}

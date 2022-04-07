@@ -1,0 +1,9 @@
+.contact-div { 
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.contact-div h2 { 
+   margin-top: 3rem;
+   font-size: 3rem;
+}

@@ -1,0 +1,21 @@
+.About-div{ 
+    text-align: center;
+}
+
+.About{
+    font-size:5rem;
+    margin:5rem auto ;
+    
+}
+
+.p-div{
+    padding: 2rem;
+    margin-top :3rem;
+    margin-bottom: 3rem;
+    font-weight:500
+}
+
+.main-div{ 
+        background-color: rgba(255, 255, 255, 0.507);
+
+}

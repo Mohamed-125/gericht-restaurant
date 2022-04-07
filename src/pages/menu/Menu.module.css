@@ -1,0 +1,87 @@
+.mealDiv {
+  position: relative;
+  border: 1px solid;
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  height: 14rem;
+}
+
+.mealProperties {
+  position: relative;
+  /* top:3rem;  */
+  /* right: 4rem; */
+
+  font-size: 1.5rem;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.mealProperties p{
+  margin-top:1.3rem;
+  font-size: 1.7rem;
+  position: absolute;
+  margin-bottom:3rem;
+  padding-bottom:3rem;
+right:4rem;
+bottom: -14rem;
+}
+.mealProperties h3{
+  position: absolute;
+right:4rem;
+bottom:-5rem;
+}
+
+.addToCartBtn{ 
+  background-color: #ff7738;
+  margin-top:1rem;
+ width: 10rem;
+ position: absolute;
+ right:4rem;
+ bottom:-11.3rem
+
+}
+
+
+.MealsSection {
+  background: #292723;
+}
+.MealsSection h2 {
+  padding-top: 6rem;
+  margin-bottom: 5rem;
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.mealImage {
+  position: absolute;
+  bottom:1rem;
+  width: 17rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 10px;
+  height: 12rem;
+}
+
+
+.noItems{
+  padding:5rem;
+  margin:  auto ; 
+  width:fit-content ; 
+  font-size:3rem;
+  font-weight: bold ;
+  color:rgb(216, 216, 216)
+  
+}
+
+.select-menu{
+  position: absolute;
+  left: 44.5%;
+  top: 26.5rem;
+}

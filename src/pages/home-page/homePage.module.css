@@ -1,0 +1,43 @@
+.homeDiv {
+  width: 100%;
+  height: 30%;
+}
+.homeButton {
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(15, 15, 15);
+  position: absolute;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 1.3rem 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 62%;
+  border-radius: 10px;
+  margin-left: 3.5rem;
+}
+.homeButton:hover {
+  background-color: rgb(34, 34, 34);
+  padding: 1.6rem 3rem;
+}
+
+.homeImage {
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin-left: 2.5rem;
+  position: absolute;
+  top: 35%;
+  font-size: 5.3rem;
+}
+
+.homeP {
+  font-weight: thin;
+  position: absolute;
+  margin-left: 3rem;
+  top: 50%;
+  font-size: 2.6rem;
+  letter-spacing: 3.5px;
+}

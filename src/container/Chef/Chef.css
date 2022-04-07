@@ -1,0 +1,89 @@
+.chef__main_section {
+  max-width: 1300px;
+  margin-inline: auto;
+  padding: 3rem 3rem;
+}
+.chef__contener {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chef__img {
+  max-width: 75%;
+}
+.chef__title {
+  margin-top: 80px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.subTitleStyles {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.titleStyles {
+  max-width: 450px;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #dcca87;
+}
+
+.header__button {
+  margin-top: 2rem;
+  width: 157px;
+  height: 44px;
+  background: var(--color-golden);
+  padding: 8px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0c0b08;
+
+  font-family: var(--font-base);
+}
+button {
+  border: none;
+}
+.chef__text {
+  margin-top: 2rem;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+.chef__first_line {
+  display: flex;
+  align-items: center;
+}
+
+.chef__quote {
+  margin-right: 1rem;
+  width: 47px;
+  height: 40px;
+}
+
+@media (max-width: 998px) {
+  .chef__contener {
+    flex-direction: column-reverse;
+  }
+  .chef__quote {
+    margin-right: 1rem;
+    width: 40px;
+    height: 33px;
+  }
+}
