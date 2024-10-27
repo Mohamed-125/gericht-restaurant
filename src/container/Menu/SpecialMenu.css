@@ -8,8 +8,8 @@
   margin-inline: auto;
 }
 .menu__img {
-  width: 444px;
-  height: 659px;
+width:100%;
+object-fit:cover
 }
 
 .menu__pizzas_title,
@@ -70,17 +70,8 @@
     flex-direction: column;
   }
 }
-@media (max-width: 800px) {
-  .menu__img {
-    width: 300px;
-    height: 450px;
-  }
-}
+
 @media (max-width: 420px) {
-  .menu__img {
-    width: 250px;
-    height: 400px;
-  }
   .item__title {
     width: 90px;
   }
